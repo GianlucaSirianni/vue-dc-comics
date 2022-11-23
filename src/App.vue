@@ -8,6 +8,8 @@
 
     <MainNav/>
 
+    <FooterNav/>
+
 
   </div>
 
@@ -17,6 +19,7 @@
 import HeaderComp from './components/HeaderComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import MainNav from './components/MainNav.vue'
+import FooterNav from './components/FooterNav.vue'
 
 export default {
   name: 'App',
@@ -24,6 +27,7 @@ export default {
     HeaderComp,
     ContentComp,
     MainNav,
+    FooterNav,
   }
 }
 </script>
@@ -33,7 +37,7 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
+  
   color: #2c3e50;
   padding: 0;
   margin: 0;

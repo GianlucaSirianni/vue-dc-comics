@@ -10,6 +10,8 @@
 
     <FooterNav/>
 
+    <FooterSocial/>
+
 
   </div>
 
@@ -20,6 +22,7 @@ import HeaderComp from './components/HeaderComp.vue'
 import ContentComp from './components/ContentComp.vue'
 import MainNav from './components/MainNav.vue'
 import FooterNav from './components/FooterNav.vue'
+import FooterSocial from './components/FooterSocial.vue'
 
 export default {
   name: 'App',
@@ -28,6 +31,7 @@ export default {
     ContentComp,
     MainNav,
     FooterNav,
+    FooterSocial
   }
 }
 </script>

@@ -4,17 +4,26 @@
 
     <HeaderComp/>
 
+    <ContentComp/>
+
+    <MainNav/>
+
+
   </div>
 
 </template>
 
 <script>
 import HeaderComp from './components/HeaderComp.vue'
+import ContentComp from './components/ContentComp.vue'
+import MainNav from './components/MainNav.vue'
 
 export default {
   name: 'App',
   components: {
     HeaderComp,
+    ContentComp,
+    MainNav,
   }
 }
 </script>

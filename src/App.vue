@@ -1,5 +1,4 @@
 <template>
-
   <div id="app">
 
     <HeaderComp/>
@@ -13,8 +12,8 @@
     <FooterSocial/>
 
 
-  </div>
 
+  </div>
 </template>
 
 <script>
@@ -36,15 +35,13 @@ export default {
 }
 </script>
 
-<style scoped lang="scss">
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  
   color: #2c3e50;
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+  width: 100vw;
+
 }
 </style>

@@ -1,6 +1,9 @@
 <template>
     <div>
-        <h1> Content Goes Here </h1>
+        <div class="container">
+            <h1> Content Goes Here </h1>
+        </div>
+        
     </div>
 </template>
 
@@ -19,6 +22,11 @@
 
     h1{
         color: white;
+    }
+
+    .container{
+        width: 90%;
+        margin: auto;
     }
 
 

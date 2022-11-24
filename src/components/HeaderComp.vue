@@ -54,4 +54,8 @@
         color: black;
     }
 
+    .logo{
+        padding: 1rem;
+    }
+
 </style>

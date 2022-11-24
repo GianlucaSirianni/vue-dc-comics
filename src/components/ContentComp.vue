@@ -4,7 +4,11 @@
             <div class="card">
                 <ComicComp v-for="(elem, index) in comics" :key="index" :dettagliProdotto="elem" />
             </div>
-
+        </div>
+        <div class="btnContainer">
+            <div class="loadMore">
+                <p>LOAD MORE...</p>
+            </div>
         </div>
 
     </div>
@@ -113,8 +117,25 @@ h1 {
     margin: 0 auto;
 }
 
-.card{
+.card {
     display: flex;
     flex-wrap: wrap;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: center;
+}
+
+.loadMore {
+    width: 200px;
+    height: 50px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: absolute;
+
 }
 </style>

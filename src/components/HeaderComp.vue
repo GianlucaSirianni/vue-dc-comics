@@ -5,57 +5,65 @@
                 <img src="../assets/img/dc-logo.png" alt="">
             </div>
             <div class="navList">
-                <div><a href="#">CHARACTERS</a></div>
-                <div><a href="#">COMICS</a></div>
-                <div><a href="#">MOVIES</a></div>
-                <div><a href="#">TV</a></div>
-                <div><a href="#">GAMES</a></div>
-                <div><a href="#">COLLECTIBLES</a></div>
-                <div><a href="#">VIDEOS</a></div>
-                <div><a href="#">FANS</a></div>
-                <div><a href="#">NEWS</a></div>
-                <div><a href="#">SHOP</a></div>
+                <div class="listContainer"><a href="#">CHARACTERS</a></div>
+                <div class="listContainer"><a href="#">COMICS</a></div>
+                <div class="listContainer"><a href="#">MOVIES</a></div>
+                <div class="listContainer"><a href="#">TV</a></div>
+                <div class="listContainer"><a href="#">GAMES</a></div>
+                <div class="listContainer"><a href="#">COLLECTIBLES</a></div>
+                <div class="listContainer"><a href="#">VIDEOS</a></div>
+                <div class="listContainer"><a href="#">FANS</a></div>
+                <div class="listContainer"><a href="#">NEWS</a></div>
+                <div class="listContainer"><a href="#">SHOP</a></div>
             </div>
         </nav>
     </div>
 </template>
 
 <script>
-    export default {
-        
-    }
+export default {
+
+}
 </script>
 
 <style lang="scss" scoped>
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+}
 
-    nav{
+.navList {
+    display: flex;
+
+
+    div {
+        margin: 0 10px;
+        height: 100px;
         display: flex;
-        justify-content: space-between;
         align-items: center;
-        width: 80%;
-        margin: auto;
-    }
-    .navList{
-        display: flex;
-        
-
-        div{
-            margin: 0 10px;
-            height: 100px;
-            display: flex;
-            align-items: center;
-        }
-
     }
 
+}
 
+
+a {
+    text-decoration: none;
+    color: black;
+
+
+}
+
+.listContainer:hover {
     a{
-        text-decoration: none;
-        color: black;
+        color: blue;
     }
+        border-bottom: 4px solid blue;
+}
 
-    .logo{
-        padding: 1rem;
-    }
-
+.logo {
+    //padding: 1rem;
+}
 </style>

@@ -106,6 +106,7 @@ export default {
 .gen {
     background-color: black;
     padding: 4rem;
+    
 }
 
 h1 {

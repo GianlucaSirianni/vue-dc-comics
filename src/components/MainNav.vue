@@ -36,6 +36,7 @@ export default {
 
     .gen{
         background-color: aqua;
+        width: 100%;
     }
 
     nav{

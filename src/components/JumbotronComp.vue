@@ -22,7 +22,7 @@
         
     }
     .jumbotron{
-        width: 100vw;
+        width: 100%;
         height: 300px;
         background-image: url(../assets/img/jumbotron.jpg);
         background-repeat: no-repeat;

@@ -26,6 +26,7 @@ export default {};
 <style lang="scss" scoped>
 .gen {
   background-color: black;
+  width: 100%;
 }
 
 .flex {

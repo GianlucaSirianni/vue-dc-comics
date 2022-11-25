@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="gen">
         <nav>
             <div class="logo">
                 <img src="../assets/img/dc-logo.png" alt="">
@@ -27,12 +27,18 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+
+.gen{
+    background-color:white;
+    width: 100%;
+}
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 80%;
     margin: auto;
+    
 }
 
 .navList {
@@ -63,7 +69,7 @@ a {
         border-bottom: 4px solid blue;
 }
 
-.logo {
-    //padding: 1rem;
+img {
+    width: 70px;
 }
 </style>
